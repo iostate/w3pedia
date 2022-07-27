@@ -6,13 +6,14 @@ import NavBar from '../../components/NavBar'
 const Home: NextPage = () => {
   return (
     <div>
-      
+      {/* test */}
+
       <Head>
         <title>Web3Pedia</title>
         <meta name="description" content="Hand-picked Tools and Resources for web3 dOers" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar/>
+      <NavBar />
       <main className='flex w-full h-screen justify-center items-center'>
         <h1 className='text-[100px] font-bold'>
           Web3 Tool Kit
